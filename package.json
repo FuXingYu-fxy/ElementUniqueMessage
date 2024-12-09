@@ -1,0 +1,44 @@
+{
+  "name": "element-unique-message",
+  "version": "0.0.1",
+  "description": "A utility to prevent duplicate message popups using Element UI.",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FuXingYu-fxy/ElementUniqueMessage.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": {
+      "import": "./lib/element-unique-message.js",
+      "require": "./lib/element-unique-message.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite serve",
+    "build": "vite build"
+  },
+  "keywords": [
+    "vue",
+    "element-ui",
+    "message",
+    "unique",
+    "popup"
+  ],
+  "author": "Xingyu Fu",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.3.3",
+    "element-ui": "*",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^4.3.0",
+    "vue": "^2.7.5"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.15.14"
+  }
+}
